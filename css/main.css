@@ -1,0 +1,85 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+p,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-main-color {
+    background-color: #FFE2AA;
+}
+
+.height {
+    max-height: 100px;
+}
+
+.text-color {
+    color: #363958;
+}
+
+.btn-bg-color {
+    background-color: #A4BC46;
+}
+
+.women-bg-color {
+    background-color: #F1F1F1;
+}
+
+.img-height {
+    height: 400px;
+}
+
+.col-height {
+    min-height: 500px;
+}
+
+.card-body-info {
+    min-height: 150px;
+}
+
+.border-radius {
+    border-radius: 1.5rem;
+}
+
+.shipping-img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 200px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.shipping-text {
+    max-width: 20rem;
+}
+
+.form-width {
+    max-width: 50vw;
+}
+
+@media screen and (min-width:996px) {
+    .shipping-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    }
+    .shipping-part-1 {
+        order: 2;
+    }
+    .shipping-img-container {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left!important;
+    }
+    .shipping-text h1 {
+        font-size: 20px;
+    }
+    .shipping-part-1 {
+        margin-bottom: 0!important;
+        margin-top: 2rem !important;
+    }
+}
